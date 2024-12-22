@@ -21,18 +21,21 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. Install required libs
+3. Install required libs (they are in the provided requirements.txt file)
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Launch program (in a browser with jupyter notebook or in command line)
-- with browser:
+4. Execute python program (in a browser with jupyter notebook or in command line)
+
+- with command line (execute code and generate the result in a html report in current directory):
+```bash
+jupyter nbconvert --to html --execute projet_camille.ipynb
+```
+(or --to python to generate a standard python program which can be executed in command line)
+
+- with browser (launch jupyter notebook then open manually projet_camille.ipynb, and start it from the jupyter interface):
 ```bash
 jupyter notebook
 ```
 
-- with command line:
-```bash
-jupyter nbconvert --execute projet_camille.ipynb
-```
