@@ -26,7 +26,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Launch program
+4. Launch program (in a browser with jupyter notebook or in command line)
+- with browser:
+```bash
+jupyter notebook
+```
+
+- with command line:
 ```bash
 jupyter nbconvert --execute projet_camille.ipynb
 ```
