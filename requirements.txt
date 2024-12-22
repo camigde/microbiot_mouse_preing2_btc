@@ -1,3 +1,6 @@
 jupyter
 numpy
 pandas
+seaborn
+matplotlib
+nbconvert
